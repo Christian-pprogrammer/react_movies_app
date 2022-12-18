@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Font Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.test::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #c4c4c4;
+}
+.test::-webkit-scrollbar{
+  display: none;
+  background: #ebebeb;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.test::-webkit-scrollbar-button{
+  display: none;
+}
